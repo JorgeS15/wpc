@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Water Pressure Controller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="topnav">
+    <h1><i class="fas fa-microchip"></i> Water Pressure Controller</h1>
+    <div class="wifi-status" id="wifiStatus">
+      <i class="fas fa-wifi"></i> <span id="ipAddress">Connecting...</span>
+    </div>
+  </div>
+  
+  <div class="content">
+    <div class="card-grid">
+      <div class="card">
+        <h2><i class="fas fa-tachometer-alt"></i> Pressure</h2>
+        <div class="value-container">
+          <span id="pressure">0.00</span>
+          <span class="unit">bar</span>
+        </div>
+        <div class="status-bar" id="pressureBar"></div>
+      </div>
+      
+      <div class="card">
+        <h2><i class="fas fa-thermometer-half"></i> Temperature</h2>
+        <div class="value-container">
+          <span id="temperature">0.00</span>
+          <span class="unit">&deg;C</span>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h2><i class="fas fa-tint"></i> Flow Rate</h2>
+        <div class="value-container">
+          <span id="flow">0.00</span>
+          <span class="unit">L/min</span>
+        </div>
+      </div>
+      
+      <div class="card system-card">
+        <h2><i class="fas fa-cog"></i> System Controls</h2>
+        <div class="system-status">
+          <div class="status-item">
+            <span>Motor:</span>
+            <span class="status-indicator" id="motor">OFF</span>
+          </div>
+          <div class="status-item">
+            <span>Mode:</span>
+            <span class="status-indicator" id="mode">AUTO</span>
+          </div>
+        </div>
+        
+        <div class="control-buttons">
+          <button id="toggleBtn" class="button">
+            <i class="fas fa-power-off"></i> Toggle Motor
+          </button>
+          <button id="overrideBtn" class="button">
+            <i class="fas fa-user-cog"></i> Manual Override
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<script src="app.js"></script>
+</body>
+</html>

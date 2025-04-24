@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "98450ddb-63df-4816-a672-852bae15a7c4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 327.66 68.58)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "11150fc1-6b32-4128-a8c5-ecb222fa6c52")
+		(property "Sheetname" "actuation"
+			(at 327.66 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "actuation.kicad_sch"
+			(at 327.66 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wpc_eletrical_diagram"
+				(path "/98450ddb-63df-4816-a672-852bae15a7c4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 57.15)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23b9d3e1-8b18-4db8-ad50-439f941b7a42")
+		(property "Sheetname" "auxiliar"
+			(at 327.66 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "auxiliar.kicad_sch"
+			(at 327.66 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wpc_eletrical_diagram"
+				(path "/98450ddb-63df-4816-a672-852bae15a7c4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 80.01)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f275e5a-e381-43f3-83a2-c58d225cdeb8")
+		(property "Sheetname" "current_sensors"
+			(at 327.66 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "current_sensors.kicad_sch"
+			(at 327.66 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wpc_eletrical_diagram"
+				(path "/98450ddb-63df-4816-a672-852bae15a7c4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 34.29)
+		(size 25.4 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e119725-dcfb-4791-8d41-62fdf831d9ec")
+		(property "Sheetname" "cables"
+			(at 327.66 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cabos.kicad_sch"
+			(at 327.66 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wpc_eletrical_diagram"
+				(path "/98450ddb-63df-4816-a672-852bae15a7c4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 46.99)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9027b435-2218-4b8f-b057-aa8797f6b84c")
+		(property "Sheetname" "water_sensors"
+			(at 327.66 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 327.66 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wpc_eletrical_diagram"
+				(path "/98450ddb-63df-4816-a672-852bae15a7c4"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 327.66 19.05)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1e595ef-7f20-476d-83f8-3ed311c5b2df")
+		(property "Sheetname" "esp32"
+			(at 327.66 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 327.66 28.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "wpc_eletrical_diagram"
+				(path "/98450ddb-63df-4816-a672-852bae15a7c4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "0")
+		)
+	)
+	(embedded_fonts no)
+)
