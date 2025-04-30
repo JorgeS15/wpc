@@ -1766,6 +1766,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 53.34) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ee2735-f202-416a-ab02-b1c22e1be7bb")
+	)
+	(wire
+		(pts
 			(xy 53.34 67.31) (xy 68.58 67.31)
 		)
 		(stroke
@@ -1876,7 +1886,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 57.15) (xy 82.55 62.23)
+			(xy 107.95 74.93) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 82.55 41.91)
+			(xy 107.95 54.61) (xy 107.95 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1937,6 +1947,48 @@
 		(uuid "11945d15-1fc3-4b34-8d88-952c165d18ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 39.5901 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SSR"
+		(shape input)
+		(at 82.55 53.34 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c94ac65-adf0-46bd-a6c6-416f9f960bdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 46.6658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SSR"
+		(shape output)
+		(at 107.95 80.01 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31f83f29-4065-4286-8ee4-28f0cd74cc09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 86.6842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2138,7 @@
 	)
 	(symbol
 		(lib_id "Relay:COTO_3660_Split")
-		(at 82.55 49.53 0)
+		(at 107.95 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2094,7 +2146,7 @@
 		(dnp no)
 		(uuid "47f47d7d-d5af-41cc-99ba-0e3e5a3cbba7")
 		(property "Reference" "SSR"
-			(at 87.63 48.768 0)
+			(at 113.03 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2155,7 @@
 			)
 		)
 		(property "Value" "MotorSolidStateRelay"
-			(at 87.63 50.7999 0)
+			(at 113.03 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2164,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_3PST_COTO_3660"
-			(at 87.63 52.07 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2174,7 @@
 			)
 		)
 		(property "Datasheet" "https://cotorelay.com/wp-content/uploads/2014/09/3600_series_reed_relay_datasheet.pdf"
-			(at 82.55 49.53 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2183,7 @@
 			)
 		)
 		(property "Description" "Low thermal EMF 3PST-NO reed relay, 150V 0.25A, similar to 3650 but with shared shield/contact, 30.48x16.76x12.06mm"
-			(at 82.55 49.53 0)
+			(at 107.95 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +2709,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 82.55 36.83 0)
+		(at 107.95 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2666,7 +2718,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa5879eb-2e27-4a1d-bbb6-9d56b8f094f6")
 		(property "Reference" "#PWR017"
-			(at 82.55 40.64 0)
+			(at 107.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2727,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 82.55 31.75 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 36.83 0)
+			(at 107.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 36.83 0)
+			(at 107.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 36.83 0)
+			(at 107.95 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)

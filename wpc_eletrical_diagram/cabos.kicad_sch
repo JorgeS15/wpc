@@ -1464,7 +1464,7 @@
 		)
 	)
 	(global_label "GND"
-		(shape passive)
+		(shape output)
 		(at 49.53 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1475,7 +1475,7 @@
 		)
 		(uuid "54ab4d45-9843-4f1c-8482-cb3e7fea2097")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.2744 86.36 0)
+			(at 56.3857 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,8 +1536,8 @@
 			)
 		)
 	)
-	(global_label "SSR_ON"
-		(shape output)
+	(global_label "SSR"
+		(shape input)
 		(at 49.53 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1548,7 +1548,7 @@
 		)
 		(uuid "c13110ce-4e35-4acc-850a-0205ee872c12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8328 88.9 0)
+			(at 56.2042 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1558,7 @@
 		)
 	)
 	(global_label "5VDC"
-		(shape passive)
+		(shape output)
 		(at 49.53 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1569,7 +1569,7 @@
 		)
 		(uuid "c694b9d4-1eb3-40c2-bf0b-90b031f24299")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.242 83.82 0)
+			(at 57.3533 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,8 +1684,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Signals Cable (DC)"
-			(at 32.512 82.296 90)
+		(property "Value" "Signals Cable (DC) A1"
+			(at 32.512 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
