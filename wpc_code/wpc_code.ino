@@ -152,8 +152,8 @@ void loop() {
         lastTime = millis();
 
         pressure = readInPressure();
-        pressure = random(1, 10);
-        temperature = random(5, 25);
+        //pressure = random(1, 10);
+        //temperature = random(5, 25);
         temperature = readTemperature();
 
         //Motor control logic
