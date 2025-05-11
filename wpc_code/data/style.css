@@ -190,6 +190,15 @@ h1, h2, h3 {
   transform: translateY(0);
 }
 
+.button.destructive {
+    background-color: #dc3545;
+    color: white;
+}
+
+.button.destructive:hover {
+    background-color: #bb2d3b;
+}
+
 @media (max-width: 768px) {
   .card-grid {
     grid-template-columns: 1fr;

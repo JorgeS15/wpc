@@ -37,7 +37,7 @@
       <div class="card">
         <h2><i class="fas fa-tint"></i> Flow Rate</h2>
         <div class="value-container">
-          <span id="flow">0.00</span>
+          <span id="flow">0</span>
           <span class="unit">L/min</span>
         </div>
       </div>
@@ -62,6 +62,9 @@
           <button id="overrideBtn" class="button">
             <i class="fas fa-user-cog"></i> Manual Override
           </button>
+		  	  <button onclick="rebootDevice()" class="button">
+			<i class="fas fa-undo"></i> Reboot Device
+		</button>
         </div>
       </div>
     </div>

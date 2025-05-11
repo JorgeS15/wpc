@@ -14,7 +14,7 @@ const config = {
   },
   flow: {
     min: 0,
-    max: 10
+    max: 40
   }
 };
 
@@ -161,6 +161,18 @@ function sendCommand(command) {
     // You could add UI feedback here
   });
 }
+
+function rebootDevice() {
+    fetch('/reboot', {
+        method: 'POST'
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Reboot initiated');
+        alert('Device will reboot shortly');
+    });
+}
+
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   connectSSE();
